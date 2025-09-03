@@ -1,0 +1,78 @@
+.custom-button {
+  padding: 8px 16px;
+  background-color: #6b6aa8;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.custom-button:hover {
+  background-color: #5a5991;
+}
+
+.custom-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+  color: #666;
+}
+
+.view-btn {
+  background-color: #6b6aa8; 
+}
+
+.view-btn:hover {
+  background-color: #5a5991;
+}
+
+.delete-btn {
+  background-color: #c93b4a; 
+}
+
+.delete-btn:hover {
+  background-color: #a92f3d;
+}
+
+.cancel-button {
+  background-color: #bbb;
+  color: #333;
+}
+
+.cancel-button:hover {
+  background-color: #999;
+}
+
+@media (max-width: 1024px) {
+  .custom-button,
+  .view-btn,
+  .delete-btn,
+  .cancel-button {
+    padding: 6px 12px;
+    font-size: 0.9rem;
+    border-radius: 5px;
+  }
+}
+
+@media (max-width: 600px) {
+  .custom-button,
+  .view-btn,
+  .delete-btn,
+  .cancel-button {
+    padding: 5px 10px;
+    font-size: 0.8rem;
+    border-radius: 4px;
+  }
+}
+
+@media (max-width: 400px) {
+  .custom-button,
+  .view-btn,
+  .delete-btn,
+  .cancel-button {
+    padding: 4px 8px;
+    font-size: 0.75rem;
+    border-radius: 3px;
+  }
+}
